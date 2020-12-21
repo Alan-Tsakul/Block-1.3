@@ -4,49 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-<header class="header">
-         <div class="header__burger_logo">
-             <img src="./img/svg/burger.svg" alt="Меню">
-         </div>
-         <div class="header__group_logo">
-            <img src="./img/svg/Group.svg" alt="Меню">
+    <header class="header">
+        <div class="header-mobile">
+           <button class="header__burger-logo">
+                <img src="./img/svg/burger.svg" alt="Меню">
+            </button>
+            <a href="#" class="header__group-logo">
+                <img src="./img/svg/Group.svg" alt="Меню">
+            </a>
+            <div class="header__divider-logo-2">
+                <img src="./img/svg/divider.svg" alt="Меню">
+            </div>
+            <a href="#" class="header__repair-logo">
+                <img src="./img/svg/repair.svg" alt="Меню">
+            </a>
+            <a href="#" class="header__checkstatus-logo">
+                <img src="./img/svg/checkstatus.svg" alt="Меню">
+            </a>
         </div>
-        <div class="header__divider">
-            <img src="./img/svg/divider.svg" alt="Меню">
+        <div class="header-tablet">
+            <button class="header__burger-logo">
+                <img src="./img/svg/burger.svg" alt="Меню">
+            </button>
+            <div class="header__divider-logo-for-tablet">
+                <img src="./img/svg/divider.svg" alt="Меню">
+            </div>
+            <a href="#" class="header__group-logo">
+                <img src="./img/svg/Group.svg" alt="Меню">
+            </a>
+            <a href="#" class="header__phone-logo">
+                <img src="./img/svg/call.svg" alt="Меню">
+            </a>
+            <a href="#" class="header__chat-logo">
+                <img src="./img/svg/chat.svg" alt="Меню">
+            </a>
+            <a href="#" class="header__profile-logo">
+                 <img src="./img/svg/profile.svg" alt="Меню">
+            </a>
+            <div class="header__divider-logo-2">
+                <img src="./img/svg/divider.svg" alt="Меню">
+            </div>
+            <a href="#" class="header__repair-logo">
+                <img src="./img/svg/repair.svg" alt="Меню">
+            </a>
+            <a href="#" class="header__checkstatus-logo">
+                <img src="./img/svg/checkstatus.svg" alt="Меню">
+            </a>
         </div>
-        <div class="header__repair_logo">
-            <img src="./img/svg/repair.svg" alt="Меню">
-        </div>
-        <div class="header__checkstatus_logo">
-            <img src="./img/svg/checkstatus.svg" alt="Меню">
-        </div>
-</header>
-<main>
-    <section class="intro">
-        <div class="intro__img">
-            <img src="img/svg/highlight.svg" alt="copy">
-            <h1 class="intro__title">Услуги и сервисы</h1>
-        </div>
-            <ul class="intro__item">
-                <li>
-                    <a href="#!" class="intro__link">Ремонтируемые устройства</a>
-                </li>
-              </ul>
-                <p class="intro__subtitle">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                <form class="continue-form">
-                        <input type="image" class="continue-form__image" src="img/svg/icon.svg">
-                        <p class="continue-form__submit">Читать далее</p>
-                </form>
-    </section>
-    <div class="shedule-image">
-       <img src="./img/cps.jpg" alt="Режим работы">
-    </div>
-</main>
+    </header>
+        <main class="main">
+            <section class="intro">
+                <div class="intro__img">
+                    <img src="img/svg/highlight.svg" alt="copy">
+                    <h1 class="intro__title">Услуги и сервисы</h1>
+                    <ul class="menu-desktop">
+                        <li>
+                            <a href="#" class="intro-title continue-form__submit"> Оставить заявку</a>
+                                <img src="./img/svg/repair.svg">
+                        </li>
+                        <li>
+                            <a href="#" class="intro-title continue-form__submit">Статус ремонта</a>
+                                <img src="./img/svg/checkstatus.svg">
+                        </li>
+                    </ul>
+                </div>
+                <div class="scroll-menu-container">
+                    <ul class="scroll-menu">
+                        <li class="intro__item">
+                            <a href="#!" class="intro__link">Ремонтируемые устройства</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="intro__link">Дополнительные услуги</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="intro__link">Цены на услуги</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="intro__link">Специальные цены</a>
+                        </li>
+                      </ul>
+                    </div>
+                      <ul class="scroll-menu-for-desktop">
+                        <a href="#!" class="intro__item intro__link">Ремонтируемые бренды</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="intro__link">Ремонтируемые устройства</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="intro__link">Цены на услуги</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="intro__link">Адреса сервисных центров</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="intro__link">Специальные цены</a>
+                    </li>
+                    <li>
+                        <a href="#!" class="intro__link">Отзывы</a>
+                    </li>
+                    </ul>
+                        <p class="intro__subtitle">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                        <p class="intro__subtitle-for-tablet">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br>
+                        <br>
+                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
+                        <p class="intro__subtitle-for-desktop">
+                            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                        <br>
+                        <br>
+    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                        </p>    
+                                <a href="#" class="continue-form__submit">
+                                    <image class="continue-form__image" src="img/svg/icon.svg" alt="continue-read">  
+                                    Читать далее</a>
+            </section>
+            <div class="shedule-image">
+               <img src="./img/cps.jpg" alt="shedule-image" width="320" height="170">
+            </div>
+            <div class="shedule-image-for-tablet">
+                <img src="./img/cps.jpg" alt="shedule-image" width="360" height="190" class="image-radius">
+             </div>
+             <div class="shedule-image-for-desktop">
+                <img src="./img/cps.jpg" alt="shedule-image" width="531" height="300" class="image-radius">
+             </div>
+        </main> 
     
 </body>
 </html>
