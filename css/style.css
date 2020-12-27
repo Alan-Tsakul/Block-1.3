@@ -80,7 +80,7 @@ body{
     }
     }
 .header-menu__btn_burger-menu-pic {
-    background: url("/img/svg/burger.svg") no-repeat #FF3E79 10px 12px;
+    background: url("../img/svg/burger.svg") no-repeat #FF3E79 10px 12px;
 }
 .buttons-list {
     display: flex;
@@ -101,11 +101,11 @@ body{
     height: 40px;
     }
 .mobile-list__btn_repair-pic {
-    background: url("/img/svg/repair.svg") no-repeat #FF3E79 10px 10px;
+    background: url("../img/svg/repair.svg") no-repeat #FF3E79 10px 10px;
     
 }
 .mobile-list__btn_check-status-pic {
-    background: url("/img/svg/check-status.svg") no-repeat #FF3E79 12px 10px;
+    background: url("../img/svg/check-status.svg") no-repeat #FF3E79 12px 10px;
 }
 .tablet-list {
     display: none;
@@ -124,13 +124,13 @@ body{
    }
 
 .tablet-list__btn-call-pic {
-    background: url("/img/svg/call.svg") no-repeat #FF3E79 10px 10px;
+    background: url("../img/svg/call.svg") no-repeat #FF3E79 10px 10px;
 }
 .tablet-list__btn-chat-pic {
-    background: url("/img/svg/chat.svg") no-repeat #FF3E79 10px 10px;
+    background: url("../img/svg/chat.svg") no-repeat #FF3E79 10px 10px;
 }
 .tablet-list__btn-profile-pic {
-    background: url("/img/svg/profile.svg") no-repeat #FF3E79 10px 10px;
+    background: url("../img/svg/profile.svg") no-repeat #FF3E79 10px 10px;
 }
 .main {
     display: flex;
@@ -174,7 +174,7 @@ body{
         color: #1B1C21;
     }
     .desktop-menu-label__btn-repair-pic {
-        background: url("/img/svg/repair.svg") #FF3E79 no-repeat 10px 10px ;
+        background: url("../img/svg/repair.svg") #FF3E79 no-repeat 10px 10px ;
         margin-left: 10px;
     }
     .desktop-menu-label {
@@ -183,7 +183,7 @@ body{
         padding: 30px;
     }
     .desktop-menu-label__btn-check-pic {
-        background: url("/img/svg/check-status.svg") #FF3E79 no-repeat 10px 10px;
+        background: url("../img/svg/check-status.svg") #FF3E79 no-repeat 10px 10px;
         margin-left: 10px;
     }
 }
