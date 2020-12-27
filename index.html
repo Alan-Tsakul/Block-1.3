@@ -1,137 +1,119 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Услуги и сервисы</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/normalize.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-mobile">
-           <button class="header__burger-logo">
-                <img src="./img/svg/burger.svg" alt="Меню">
-            </button>
-            <a href="#" class="header__group-logo">
-                <img src="./img/svg/Group.svg" alt="Меню">
-            </a>
-            <div class="header__divider-logo-2">
-                <img src="./img/svg/divider.svg" alt="Меню">
+    <div class="container">
+        <header class="header">
+            <nav class="header__wrapper">
+                <div class="header-menu">
+                    <div class="header-menu__btn-wrapper">
+                        <button class="header__btn header-menu__btn_burger-menu-pic" type="button"></button>        
+                    </div>
+                <div class="group-logo">
+                    <a href="#" class="group-logo__link">
+                         <img src="img/svg/Logo-main.svg" class="group-logo__img" alt="logo">
+                    </a>
+                </div> 
             </div>
-            <a href="#" class="header__repair-logo">
-                <img src="./img/svg/repair.svg" alt="Меню">
-            </a>
-            <a href="#" class="header__checkstatus-logo">
-                <img src="./img/svg/checkstatus.svg" alt="Меню">
-            </a>
-        </div>
-        <div class="header-tablet">
-            <button class="header__burger-logo">
-                <img src="./img/svg/burger.svg" alt="Меню">
-            </button>
-            <div class="header__divider-logo-for-tablet">
-                <img src="./img/svg/divider.svg" alt="Меню">
-            </div>
-            <a href="#" class="header__group-logo">
-                <img src="./img/svg/Group.svg" alt="Меню">
-            </a>
-            <a href="#" class="header__phone-logo">
-                <img src="./img/svg/call.svg" alt="Меню">
-            </a>
-            <a href="#" class="header__chat-logo">
-                <img src="./img/svg/chat.svg" alt="Меню">
-            </a>
-            <a href="#" class="header__profile-logo">
-                 <img src="./img/svg/profile.svg" alt="Меню">
-            </a>
-            <div class="header__divider-logo-2">
-                <img src="./img/svg/divider.svg" alt="Меню">
-            </div>
-            <a href="#" class="header__repair-logo">
-                <img src="./img/svg/repair.svg" alt="Меню">
-            </a>
-            <a href="#" class="header__checkstatus-logo">
-                <img src="./img/svg/checkstatus.svg" alt="Меню">
-            </a>
-        </div>
-    </header>
-        <main class="main">
-            <section class="intro">
-                <div class="intro__img">
-                    <img src="img/svg/highlight.svg" alt="copy">
-                    <h1 class="intro__title">Услуги и сервисы</h1>
-                    <ul class="menu-desktop">
-                        <li>
-                            <a href="#" class="intro-title continue-form__submit"> Оставить заявку</a>
-                                <img src="./img/svg/repair.svg">
+                <div class="buttons-list">
+                    <ul class="mobile-list">
+                        <li class="mobile-list__item">
+                            <button type="button" class="header__btn mobile-list__btn_repair-pic"></button>
                         </li>
-                        <li>
-                            <a href="#" class="intro-title continue-form__submit">Статус ремонта</a>
-                                <img src="./img/svg/checkstatus.svg">
+                        <li class="mobile-list__item">
+                            <button type="button" class="header__btn mobile-list__btn_check-status-pic"></button>
+                        </li>
+                    </ul>
+                    
+                    <ul class="tablet-list">
+                        <li class="tablet-list__item">
+                            <button type="button" class="header__btn tablet-list__btn-call-pic"></button>
+                        </li>
+                        <li class="tablet-list__item">
+                            <button type="button" class="header__btn tablet-list__btn-chat-pic"></button>
+                        </li>
+                        <li class="tablet-list__item">
+                            <button type="button" class="header__btn tablet-list__btn-profile-pic"></button>
                         </li>
                     </ul>
                 </div>
-                <div class="scroll-menu-container">
-                    <ul class="scroll-menu">
-                        <li class="intro__item">
-                            <a href="#!" class="intro__link">Ремонтируемые устройства</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="intro__link">Дополнительные услуги</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="intro__link">Цены на услуги</a>
-                        </li>
-                        <li>
-                            <a href="#!" class="intro__link">Специальные цены</a>
-                        </li>
-                      </ul>
-                    </div>
-                      <ul class="scroll-menu-for-desktop">
-                        <a href="#!" class="intro__item intro__link">Ремонтируемые бренды</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="intro__link">Ремонтируемые устройства</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="intro__link">Цены на услуги</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="intro__link">Адреса сервисных центров</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="intro__link">Специальные цены</a>
-                    </li>
-                    <li>
-                        <a href="#!" class="intro__link">Отзывы</a>
-                    </li>
-                    </ul>
-                        <p class="intro__subtitle">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                        <p class="intro__subtitle-for-tablet">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.<br>
-                        <br>
-                            Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера</p>
-                        <p class="intro__subtitle-for-desktop">
-                            Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                        <br>
-                        <br>
-    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-                        </p>    
-                                <a href="#" class="continue-form__submit">
-                                    <image class="continue-form__image" src="img/svg/icon.svg" alt="continue-read">  
-                                    Читать далее</a>
-            </section>
-            <div class="shedule-image">
-               <img src="./img/cps.jpg" alt="shedule-image" width="320" height="170">
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="intro">
+                <img src="img/svg/highlight.svg" alt="copy">
+                <h1 class="intro__title">Услуги и сервисы</h1>
+                <div class="desktop-menu">
+                    <div class="desktop-menu-wrap"
+                    <label class="desktop-menu-label">
+                        <span class="desktop-menu-label__text">Оставить заявку</span>
+                        <button type="button" class="header__btn desktop-menu-label__btn-repair-pic"></button>
+                    </label>  
+                    <label class="desktop-menu-label">
+                        <span class="desktop-menu-label__text">Статус ремонта</span>
+                        <button type="button" class="header__btn desktop-menu-label__btn-check-pic"></button>
+                    </label>              
+                 </div>
+               </div>
             </div>
-            <div class="shedule-image-for-tablet">
-                <img src="./img/cps.jpg" alt="shedule-image" width="360" height="190" class="image-radius">
-             </div>
-             <div class="shedule-image-for-desktop">
-                <img src="./img/cps.jpg" alt="shedule-image" width="531" height="300" class="image-radius">
-             </div>
-        </main> 
-    
+           <div class="scroll-menu-container">
+            <ul class="scroll-menu">
+                <li class="scroll-menu__item">
+                    <a class="scroll-menu__link" href="#">Ремонтируемые бренды</a>
+                </li>
+                <li class="scroll-menu__item">
+                    <a class="scroll-menu__link" href="#">Ремонтируемые устройства</a>
+                </li>
+                <li class="scroll-menu__item">
+                    <a class="scroll-menu__link" href="#">Дополнительные услуги</a>
+                </li>
+                <li class="scroll-menu__item">
+                    <a class="scroll-menu__link" href="#">Цены на услуги</a>
+                </li>
+                <li class="scroll-menu__item">
+                    <a class="scroll-menu__link" href="#">Адреса сервисных центров</a>
+                </li>
+                <li class="scroll-menu__item">
+                    <a class="scroll-menu__link" href="#">Cпециальные цены</a>
+                </li>
+                <li class="scroll-menu__item">
+                    <a class="scroll-menu__link" href="#">Отзывы</a>
+                </li>
+            </ul>
+           </div>
+
+            <article class="main-content">
+                <div class="about">
+                    <div class="about-info">
+                        <p class="about-info__text">
+                            Мы являемся авторизованным сервисным центром по ремонту техники Dell. 
+                            Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией
+                             производителя.
+                        </p>
+                    <div class="about-next">
+                        <label class="about-next-label">
+                            <img src="img/svg/next-read.svg" class="about-next__img" alt="Next read">
+                        <button class="about-next__btn">Читать далее
+                        </button>
+                        </label>
+                    </div>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <img src="img/cps.jpg" class="about-img__img" alt="about-img">
+                </div>
+            </article>
+
+
+        </main>
+    </div>
 </body>
 </html>
