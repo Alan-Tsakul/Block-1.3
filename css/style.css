@@ -148,7 +148,8 @@ body{
 .intro__title {
     display: flex;
     align-items: center;
-    font-family: "TTLakes-Bold", sans-serif;
+    font-family: "TTLakes-Bold", "TTLakes", sans-serif;
+    font-weight: 800;
     flex-grow: 1;
     margin-left: 15px;
     min-width: 288px;
