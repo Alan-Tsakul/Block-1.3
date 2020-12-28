@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: 'TTLakes-Bold';
-    src: url(/fonts/TTLakes-Medium.ttf);
+    src: url(/fonts/TTLakes-Bold.ttf);
 }
 @font-face {
     font-family: 'TTLakes-Light';
@@ -19,7 +19,7 @@ html {
     box-sizing: inherit;
 }
 body{
-    /* font-family: 'TTLakes', sans-serif; */
+    font-family: 'TTLakes', sans-serif;
     background-color: #F8F8F8;
 }
 .container {
