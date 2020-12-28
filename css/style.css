@@ -1,13 +1,13 @@
 @font-face {
-    font-family: TTLakes;
+    font-family: "TTLakes";
     src: url(/fonts/TTLakes-Regular.ttf)
 }
 @font-face {
-    font-family: TTLakes-Bold;
+    font-family: "TTLakes-Bold";
     src: url(/fonts/TTLakes-Bold.ttf);
 }
 @font-face {
-    font-family: TTLakes-Light;
+    font-family: "TTLakes-Light";
     src: url(/fonts/TTLakes-Light.ttf);
 }
 
@@ -19,7 +19,7 @@ html {
     box-sizing: inherit;
 }
 body{
-    font-family:TTLakes, sans-serif;
+    font-family:"TTLakes", sans-serif;
     background-color: #F8F8F8;
 }
 .container {
@@ -149,7 +149,7 @@ body{
 .intro__title {
     display: flex;
     align-items: center;
-    font-family: TTLakes-Bold, sans-serif;
+    font-family: "TTLakes-Bold", sans-serif;
     flex-grow: 1;
     margin-left: 15px;
     min-width: 288px;
@@ -168,7 +168,7 @@ body{
     align-items:center;
     }
     .desktop-menu-label__text {
-        font-family: TT Lakes, sans-serif;
+        font-family: "TT Lakes", sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
@@ -246,7 +246,7 @@ body{
 }
 .scroll-menu__link {
     text-decoration: none;
-    font-family: TT Lakes,sans-serif;
+    font-family: "TT Lakes",sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -304,7 +304,7 @@ body{
     }
 }
 .about-info__text {
-    font-family: TT Lakes, sans-serif;
+    font-family: "TT Lakes", sans-serif;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
@@ -312,7 +312,7 @@ body{
     margin-bottom: 16px;
 }
 .about-next__btn {
-    font-family: TT Lakes, sans-serif;
+    font-family: "TT Lakes", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
