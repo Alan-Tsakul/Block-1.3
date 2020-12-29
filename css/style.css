@@ -54,12 +54,6 @@ body{
     display: flex;
     align-items: center;
 }
-@media only screen and (min-width: 768px) {
-    .header-menu {
-        flex-basis: 35%;
-        justify-content: space-between;
-    }
-    }
 .header__btn {
     width: 40px;
     height: 40px;
@@ -68,10 +62,15 @@ body{
     outline: none;
 }
 .header-menu__btn-wrapper {
-    margin-right: 16px;
+    margin-right: 20px;
     margin-left: 16px;
     position: relative;
 }
+@media only screen and (min-width: 768px) {
+    .header-menu__btn-wrapper {
+        margin-right: 40px;
+    }
+    }
 @media only screen and (min-width: 768px) {
     .header-menu__btn-wrapper::after {
         position: absolute;
@@ -147,12 +146,22 @@ body{
     justify-content: space-between;
 }
 .intro__title {
-    display: flex;
-    align-items: center;
     font-family: "TTLakes-Bold", sans-serif;
-    flex-grow: 1;
-    margin-left: 15px;
-    min-width: 288px;
+    min-width: 350px;
+    max-height: 40px;
+    padding-left: 15px;
+}
+.intro__title::before{
+        content: url(../img/svg/highlight.svg);
+        position: relative;
+        right: 16px;
+        top: 8px;
+    }
+    @media only screen and (min-width: 1120px){
+    .intro__title {
+       margin-top: 42px;
+       padding-left: 15px;
+    }
 }
 .desktop-menu {
     display:none;
@@ -161,11 +170,10 @@ body{
     .desktop-menu {
         display: flex;
         flex-basis: 40%;
-        justify-content: flex-end;
+        align-items:center;
     }
-    .desktop-menu-wrap {
-    display: flex;
-    align-items:center;
+    .desktop-menu-label{
+        margin: 30px 10px 0 0;
     }
     .desktop-menu-label__text {
         font-family: "TT Lakes", sans-serif;
@@ -175,19 +183,15 @@ body{
         text-align: right;
         letter-spacing: -0.2px;
         color: #1B1C21;
+        margin: 15px;
     }
     .desktop-menu-label__btn-repair-pic {
-        background: url("../img/svg/repair.svg") #FF3E79 no-repeat 10px 10px ;
-        margin-left: 10px;
-    }
-    .desktop-menu-label {
-        display: flex;
-        align-items:center;
-        padding: 30px;
+        background: url("../img/svg/repair.svg") #FF3E79 no-repeat 10px 10px;
+        vertical-align: middle;
     }
     .desktop-menu-label__btn-check-pic {
-        background: url("../img/svg/check-status.svg") #FF3E79 no-repeat 10px 10px;
-        margin-left: 10px;
+        background: url("../img/svg/check-status.svg") #FF3E79 no-repeat 10px 10px; 
+        vertical-align: middle;   
     }
 }
 .scroll-menu-container {
