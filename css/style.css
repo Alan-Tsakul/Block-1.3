@@ -1,16 +1,15 @@
 @font-face {
     font-family: "TTLakes";
-    src: url(/fonts/TTLakes-Regular.ttf)
+    src: url("../fonts/TTLakes-Regular.ttf");
 }
 @font-face {
     font-family: "TTLakes-Bold";
-    src: url(/fonts/TTLakes-Bold.ttf);
+    src: url("../fonts/TTLakes-Bold.ttf");
 }
 @font-face {
     font-family: "TTLakes-Light";
-    src: url(/fonts/TTLakes-Light.ttf);
+    src: url("..//fonts/TTLakes-Light.ttf");
 }
-
 
 html {
     box-sizing: border-box;
