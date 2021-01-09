@@ -25,7 +25,7 @@ body{
     width: 320px;
     padding: 23px 24px 35px 24px;
     background-color: #ffffff;
-    position: fixed;
+    /* position: fixed; */
 
 }
 .header__wrapper {
