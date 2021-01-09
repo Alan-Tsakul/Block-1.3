@@ -26,6 +26,7 @@ body{
     padding: 23px 24px 35px 24px;
     background-color: #ffffff;
     position: fixed;
+
 }
 .header__wrapper {
     display: flex;
@@ -51,13 +52,14 @@ body{
     margin-right: 65px;
 }
 .header__btn_search-info {
-    background: url("/img/svg/search-info.svg") no-repeat #FF3E79 10px 10px;
+    background: url("../img/svg/search-info.svg") no-repeat #FF3E79 10px 10px;
 }
 .nav-menu{
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 90vh;
+    min-height: 400px;
 }
 .nav-menu-list {
     font-family: "TTLakes", sans-serif;
