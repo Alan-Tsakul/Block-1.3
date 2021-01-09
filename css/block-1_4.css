@@ -19,14 +19,13 @@ html {
 }
 body{
     font-family:"TTLakes", sans-serif;
+    position: absolute;
 }
 .mobile-menu {
     margin: 0 auto;
     width: 320px;
     padding: 23px 24px 35px 24px;
     background-color: #ffffff;
-    /* position: fixed; */
-
 }
 .header__wrapper {
     display: flex;
@@ -59,7 +58,6 @@ body{
     flex-direction: column;
     justify-content: space-between;
     height: 90vh;
-    min-height: 400px;
 }
 .nav-menu-list {
     font-family: "TTLakes", sans-serif;
