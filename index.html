@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Услуги и сервисы</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 </head>
 <body>
     <div class="container">
@@ -108,9 +110,73 @@
                     <img src="img/cps.jpg" class="about-img__img" alt="about-img">
                 </div>
             </article>
-
-
         </main>
     </div>
+    <h1 class="slider-title">Ремонт техники различных брендов</h1>
+<div class="swiper-container">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->               
+        <div class="swiper-slide card">
+            <div class="card__image">
+                <img src="img/svg/Lenovo.svg" alt="Lenovo">  
+                <button type="button" class="card__btn "></button>        
+            </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card__image">
+                <img src="img/svg/Samsung.svg" alt="Samsung">
+                <button type="button" class="card__btn "></button>  
+            </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card__image">
+                <img src="img/svg/Apple.svg" alt="Apple">
+                <button type="button" class="card__btn "></button>  
+            </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card__image">
+                <img src="img/svg/ViewSonic.svg" alt="Apple">
+                <button type="button" class="card__btn "></button>  
+            </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card__image">
+                <img src="img/svg/Bosch.svg" alt="Apple">
+                <button type="button" class="card__btn "></button>  
+            </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card__image">
+                <img src="img/svg/hp.svg" alt="Apple">
+                <button type="button" class="card__btn "></button>  
+            </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card__image">
+                <img src="img/svg/Acer.svg" alt="Apple">
+                <button type="button" class="card__btn "></button>  
+            </div>
+        </div>
+        <div class="swiper-slide card">
+            <div class="card__image">
+                <img src="img/svg/Sony.svg" alt="Apple">
+                <button type="button" class="card__btn "></button>  
+            </div>
+        </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+</div>
+<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="/js/slider.js"></script>
 </body>
 </html>
