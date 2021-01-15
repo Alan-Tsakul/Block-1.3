@@ -41,11 +41,7 @@ html {
 }
 .swiper-slide-active {
     width: auto !important;
-    margin-right: -20px;
-}
-.swiper-slide {
-    display: flex;
-    justify-content: space-around;
+    margin-right: 25px;
 }
 .card__btn{
     width: 40px;
