@@ -318,15 +318,17 @@ body{
     font-family: "TT Lakes", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
-    letter-spacing: -0.2px;
+    line-height: 24px; 
     color: #1B1C21;
     margin-left: 5px;
     border: none;
     background: none;
+    outline: none;
+    cursor: pointer;
 }
     .about-next__img {
     margin-left: 9px;
+    cursor: pointer;
 } 
     .about-img__img {
     display: flex;

@@ -3,7 +3,6 @@
     src: url("../fonts/TTLakes-Regular.ttf");
 }
 
-
 html {
     box-sizing: border-box;
 }
@@ -23,29 +22,35 @@ html {
     padding: 16px ; 
     margin-bottom: 0px;
 }
-
 .swiper-wrapper {
      padding: 20px 0 50px 20px;
 }
 .card__image {
     background:#ffffff;
     border-radius: 5px;
-    border: 1px solid rgb(202, 196, 196);
+    border: 1px solid rgb(179, 177, 177);
     display: flex;
     justify-content: space-between;
     align-items:center;
     padding: 0 16px 0 16px;
-    width: 240px;
+    width: 220px;
     height: 72px;
 }
 .swiper-slide-active {
     width: auto !important;
     margin-right: 20px;
 }
+.swiper-slide-next {
+    width: auto !important;
+    margin-right: 20px;
+}
+.swiper-slide-prev {
+    visibility: hidden;
+}
 .card__btn{
     width: 30px;
     height: 40px ;
-    border: 2px solid #FF3E79;
+    border: 3px solid #FF3E79;
     border-radius: 50%;
     background: url("../img/svg/dropdown.svg") no-repeat center ;
     outline: none;
@@ -72,3 +77,54 @@ html {
 .swiper-pagination-bullet-active{
     background-color: #B5B6BC !important;
 }
+@media only screen and (min-width: 768px) {
+.card{
+    width: auto !important;
+    margin-bottom: 16px;
+}
+.swiper-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: -20px;
+}
+.swiper-show-all{
+    position: absolute;
+    bottom: 25px;
+    left: 55px;
+}
+.swiper-show-all__btn {
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    color: #1B1C21;
+    margin-left: 5px;
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+}
+.swiper-show-all__img{
+    cursor: pointer;
+}
+}
+@media only screen and (max-width: 1120px) {
+    .card:nth-child(n+7){
+        display: none;
+    }
+}
+@media only screen and (min-width: 1120px) {
+    .card:nth-child(n+9){
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card:nth-child(n+7){
+        display: block;
+    }
+    .swiper-show-all{
+        display: none;
+    }
+}
+

@@ -1,21 +1,39 @@
-var mySwiper = new Swiper('.swiper-container', {
-  // Optional parameters
-  direction: 'horizontal',
-  loop: true,
+const slider = document.querySelector('.swiper-container');
 
-  // If we need pagination
-  pagination: {
-    el: '.swiper-pagination',
-  },
+let mySwiper;
 
-  // Navigation arrows
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+function mobileSlider() {
+  if (window.innerWidth <= 768 && slider.dataset.mobile == 'false') {
+     mySwiper = new Swiper(slider, {
+      direction: 'horizontal',
+      loop: true,
+      slidesPerView: 2,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+    slider.dataset.mobile = 'true';
+  }
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
-})
+  if(window.innerWidth > 768) {
+    slider.dataset.mobile = 'false';
+    if (slider.classList.contains('swiper-container-initialized')) {
+      mySwiper.destroy();
+    }
+  }
+}
+
+mobileSlider();
+
+window.addEventListener('resize', () => {
+  mobileSlider();
+});
+
+
