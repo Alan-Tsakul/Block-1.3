@@ -36,4 +36,18 @@ window.addEventListener('resize', () => {
   mobileSlider();
 });
 
+let buttonShowAll = document.querySelector('.swiper-show-all__btn'),
+imageShowAll = document.querySelector('.swiper-show-all__img'),
+elems = document.querySelectorAll('.hidden'),
+elemstablet = document.querySelectorAll('.hidden-tablet');
 
+buttonShowAll.addEventListener('click', () => {
+  for(let i = 0; i < elems.length; i++){
+    for(let j = 0; j < elemstablet.length; j++){
+      elems[i].classList.toggle('hidden');
+      elemstablet[j].classList.toggle('hidden-tablet');
+      imageShowAll.classList.toggle('rotate');
+      buttonShowAll.classList.toggle('swiper-show-all__btn-mod');
+    }
+    }
+});
