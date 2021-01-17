@@ -119,6 +119,9 @@
     .hidden{
         display: block;
     }
+    .swiper-show-all__btn{
+        display: none;
+    }
     .swiper-show-all{
         display: none;
     }
