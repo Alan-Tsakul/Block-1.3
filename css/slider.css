@@ -68,12 +68,12 @@
 @media only screen and (min-width: 768px) {
 .card{
     width: auto !important;
-    margin: 0 25px 25px 0;
+    margin: 0 10px 25px 0;
 }
 .swiper-wrapper{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 .swiper-show-all{
     position: absolute;
@@ -110,6 +110,9 @@
 @media only screen and (min-width: 1120px) {
     .hidden{
         display: none;
+    }
+    .card{
+        margin: 0 35px 25px 0;
     }
 }
 @media only screen and (max-width: 768px) {
