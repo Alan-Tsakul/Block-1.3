@@ -21,8 +21,8 @@
     justify-content: space-between;
     align-items:center;
     padding: 0 16px 0 16px;
-    width: 210px;
-    height: 72px;
+    width: 200px;
+    height: 62px;
 }
 .swiper-slide-active {
     width: auto !important;
